@@ -132,18 +132,17 @@ div#header h1{
   height: auto;
   background-color: white;
   border: 1px solid;
-  text-align:left;
-  display: block;
+  text-align:center;
+  display: inline-block;
   margin: 10px 10px 10px 10px;
 }
 .vs-team{
-  margin: 40px 40px 40px 40px;
   width: auto;
+  margin-top: 20px;
   min-width: 100%;
   font-weight: 600;
   font-size: calc(12px + 0.8vw);
   display: inline-block;
-  float: left;
 }
 
 .vs-date{
@@ -151,25 +150,24 @@ div#header h1{
   font-size: calc(6px + 0.4vw);
 }
 .game-stats{
-  max-width: 100%;
-  padding-left: 50px;
-  padding: 40px;
+	margin-top: 10px;
+  width: 100%;
   font-size: calc(8px + 0.5vw);
   display: inline-block;
+  position: relative;
 }
 .col-label{
   font-size: calc(6px + 0.3vw);
   line-height: 10px;
-  font-weight: normal;
+  font-weight: bold;
   height: 10px;
 }
 
 .single-col{
-	float: right;
-  min-width: calc(30px + 0.6vw);
-  margin: calc(3px + 0.5vw);
+	width: auto;
   white-space: nowrap;
   text-align: center;
+  display: inline-block;
 }
 .lose{
 	background-color: #800000;
@@ -206,7 +204,6 @@ div#header h1{
 	text-transform: uppercase;
 	text-align: center;
 	height: 200px;
-	width: auto;
 	color: white;
 }
 .footer-text-wrapper{
