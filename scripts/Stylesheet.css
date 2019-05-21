@@ -211,7 +211,7 @@ div#header h1{
 .footer-text-wrapper{
 	position: relative;
 	display: inline-block;
-
+	width: auto;
 	vertical-align: top;
 }
 .footer-text{
