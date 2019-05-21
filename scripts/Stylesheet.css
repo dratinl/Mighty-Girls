@@ -198,7 +198,7 @@ div#header h1{
 }
 .footer-content-wrapper{
 	margin: auto;
-	width: 20%;
+	width: 40%;
 	display: block;
 
 }
@@ -206,6 +206,7 @@ div#header h1{
 	text-transform: uppercase;
 	text-align: center;
 	height: 200px;
+	width: auto;
 	color: white;
 }
 .footer-text-wrapper{
